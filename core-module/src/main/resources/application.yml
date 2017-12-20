@@ -1,0 +1,19 @@
+server:
+  port: 40612
+
+spring:
+  devtools:
+    restart:
+      exclude:  public/**
+      enabled:  true
+
+mybatis:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  mapper-locations: classpath*:mappers/*Mapper.xml
+
+liumapp:
+  test:
+    module:
+      util:
+        appKey: JarHelloWorld2017
