@@ -1,28 +1,12 @@
-# multy-module-archetype
-A multy module springboot project , which was created for maven archetype.
+# spring-boot-core-util-demo
+a Spring Boot demo , which let core module and util module work together .
 
 ### documents
 
-#### get admin page
-
 * mvn install
 
-* cd backend/web/target
+* cd core-module/target/
 
-* java -jar web-1.0.0-SNAPSHOT.jar
+* java -jar ./core-module-v1.0.0.jar
 
-* open your browser and look for http://localhost:8080 , you will find backend page.
-
-#### get frontend page
-
-* mvn install (only onced should be enough)
-
-* cd frontend/web/target
-
-* java -jar web-1.0.0-SNAPSHOT.jar
-
-* open your browser and look for http://localhost:8080 , you will find frontend page.
-
-### Something else
-
-* if you want a simple module project , plz view my another git repository [SpringBootMavenArchetype](https://github.com/liumapp/SpringBootMavenArchetype)
+For more Details , plz read my blog : [SpringBoot仿微服务CoreArchetype与UtilArchetype的搭配使用](http://www.liumapp.com/articles/2017/12/20/1513735822059.html)
